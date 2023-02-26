@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Life game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building.cpp
+D:\Coding\Life_game\Life\Building.cpp(88): warning C4715: 'Building::setupActivities': not all control paths return a value
+x64\Debug\Logger.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\Utilities.obj : warning LNK4042: object specified more than once; extras ignored
+  Life_game.vcxproj -> D:\Coding\Life_game\Life\x64\Debug\Life_game.exe

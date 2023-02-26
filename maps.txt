@@ -1,0 +1,132 @@
+ROOM_BEGIN
+ROOM0
+Cave entrance
+You walk down the narrow corridor and enter a large cavern. The walls are covered with various animal skeletons; your guess is that there were once many animals here but now they have all died.
+NORTH	NULL
+SOUTH	ROOM2
+EAST	ROOM1
+WEST	NULL
+ROOM_END
+
+ROOM_BEGIN
+ROOM1
+Car
+It's a car, your car. You parked it here from the beginning yet you had lost all memories of ever doing so
+NORTH	NULL
+SOUTH	NULL
+EAST	NULL
+WEST	ROOM0
+ROOM_END
+
+ROOM_BEGIN
+ROOM2
+Cave exit N
+You're inside the cave, next to the exit to the outside.
+NORTH	ROOM0
+SOUTH	ROOM5
+EAST	NULL
+WEST	ROOM3
+ROOM_END
+
+ROOM_BEGIN
+ROOM3
+Cave loop N
+Curious even more, you fully commit yourself to this expedition. Leaving your car behind, you venture deeper into the cave, traveling further and further down the suffocating squeeze of the cave's corridor. You end up in what seems to be the hollowed-out innards of the cave. Its interior has been flooded with water (how?) and it is surprisingly spacious despite being underground. It must have been an enormous natural sinkhole at one time -- perhaps when the whole mountain collapsed? The cave is lit by some kind of glowy fungus growing on the ceiling.You notice that it only goes forward in one direction.
+NORTH	NULL
+SOUTH	ROOM4
+EAST	ROOM2
+WEST	NULL
+ROOM_END
+
+ROOM_BEGIN
+ROOM4
+Cave loop S
+You're in a narrow cave path that curves around. It only goes forward in one direction.
+NORTH	ROOM3
+SOUTH	NULL
+EAST	ROOM5
+WEST	NULL
+ROOM_END
+
+ROOM_BEGIN
+ROOM5
+Cave exit S
+The cave ends to the east, leading to a forest.
+NORTH	ROOM2
+SOUTH	NULL
+EAST	ROOM6
+WEST	ROOM4
+ROOM_END
+
+ROOM_BEGIN
+ROOM6
+Blocked cave entrance
+You are standing in a big forest. The cave entrance was to the west, but it has been blocked by a cave-in.
+NORTH	NULL
+SOUTH	NULL
+EAST	ROOM7
+WEST	NULL
+ROOM_END
+
+ROOM_BEGIN
+ROOM7
+Forest fork
+The forest forks into two paths here.
+NORTH	ROOM9
+SOUTH	ROOM8
+EAST	NULL
+WEST	NULL
+ROOM_END
+
+ROOM_BEGIN
+ROOM8
+Forest edge
+You're as far south as you can go; the external cave wall wraps around this area, impeding progress.
+NORTH	ROOM7
+SOUTH	NULL
+EAST	NULL
+WEST	NULL
+ROOM_END
+
+ROOM_BEGIN
+ROOM9
+Building ruins
+An old shack lays here, falling apart from age and mold.
+NORTH	ROOM10
+SOUTH	ROOM7
+EAST	ROOM11
+WEST	ROOM12
+ROOM_END
+
+ROOM_BEGIN
+ROOM10
+Old kitchen
+The kitchen has a terrible odor of long-rotting foodstuffs.
+NORTH	NULL
+SOUTH	ROOM9
+EAST	NULL
+WEST	NULL
+ROOM_END
+
+ROOM_BEGIN
+ROOM11
+Old bathroom
+This bathroom smells worse than the nearby kitchen. There is no indoor plumbing in this house - just a hole in the ground.
+NORTH	NULL
+SOUTH	NULL
+EAST	NULL
+WEST	ROOM9
+ROOM_END
+
+ROOM_BEGIN
+ROOM12
+Old bedroom
+You find an old musty bed, and decide to take a nap. THE END.
+NORTH	NULL
+SOUTH	NULL
+EAST	NULL
+WEST	NULL
+ROOM_END
+
+STARTING_ROOM ROOM0
+ENDING_ROOM ROOM12
